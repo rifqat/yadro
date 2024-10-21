@@ -1,0 +1,25 @@
+import networkx as nx
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Ma'lumotlarni graf ko'rinishida yaratish
+def create_graph_with_weights(data, epsilon):
+    G = nx.Graph()  # Grafni boshlash
+    distance_matrix = pdist(data, metric='euclidean')
+    A = squareform(distance_matrix)
+    max_vals = np.max(A, axis=1, keepdims=True)
+    weight = (max_vals - A) / max_vals
+    #np.fill_diagonal(weight, 0)
+    
+    # Qirralarni vaznlari bilan yaratish
+    for i in range(len(data)):
+        for j in range(i + 1, len(data)):
+            #distance = A[i, j]  # Nuqtalar orasidagi masofa
+            # w_ij ni hisoblash
+            #weight = (max_distance - distance) / max_distance
+            if weight[i,j] > epsilon:
+                G.add_edge(i, j, weight=weight[i,j])  # Qirrani vazni bilan qo'shish
+            
+    return G
+    
+    
