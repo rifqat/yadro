@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Word documents (not for repo)
+*.docx
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary scripts
+code/check_data.py
+code/analyze_arff.py
+code/read_notebook.py
+generate_response.py
+generate_revised_paper.py

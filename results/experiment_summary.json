@@ -1,0 +1,113 @@
+{
+  "total_experiments": 6,
+  "total_datasets": 17,
+  "synthetic_datasets": 9,
+  "real_world_datasets": 8,
+  "total_algorithms": 12,
+  "total_runtime_seconds": 242.85,
+  "output_directory": "G:\\\u0414\u0440\u0443\u0433\u0438\u0435 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b\\my_computer\\Dropbox\\DCs\\Dcs\\Code\\Core clustering for ijai-v4\\code\\..\\results",
+  "dataset_details": {
+    "noisy_circles": {
+      "n_samples": 500,
+      "n_features": 2,
+      "n_clusters": 2,
+      "type": "synthetic"
+    },
+    "noisy_moons": {
+      "n_samples": 500,
+      "n_features": 2,
+      "n_clusters": 2,
+      "type": "synthetic"
+    },
+    "varied": {
+      "n_samples": 500,
+      "n_features": 2,
+      "n_clusters": 3,
+      "type": "synthetic"
+    },
+    "aniso": {
+      "n_samples": 500,
+      "n_features": 2,
+      "n_clusters": 3,
+      "type": "synthetic"
+    },
+    "blobs": {
+      "n_samples": 500,
+      "n_features": 2,
+      "n_clusters": 3,
+      "type": "synthetic"
+    },
+    "data1": {
+      "n_samples": 925,
+      "n_features": 2,
+      "n_clusters": 4,
+      "type": "synthetic"
+    },
+    "data2": {
+      "n_samples": 1863,
+      "n_features": 2,
+      "n_clusters": 4,
+      "type": "synthetic"
+    },
+    "data3": {
+      "n_samples": 1500,
+      "n_features": 2,
+      "n_clusters": 2,
+      "type": "synthetic"
+    },
+    "data4": {
+      "n_samples": 885,
+      "n_features": 2,
+      "n_clusters": 6,
+      "type": "synthetic"
+    },
+    "iris": {
+      "n_samples": 150,
+      "n_features": 4,
+      "n_clusters": 3,
+      "type": "real-world"
+    },
+    "glass": {
+      "n_samples": 214,
+      "n_features": 9,
+      "n_clusters": 6,
+      "type": "real-world"
+    },
+    "ecoli": {
+      "n_samples": 336,
+      "n_features": 7,
+      "n_clusters": 8,
+      "type": "real-world"
+    },
+    "vehicle": {
+      "n_samples": 846,
+      "n_features": 18,
+      "n_clusters": 4,
+      "type": "real-world"
+    },
+    "wisc": {
+      "n_samples": 699,
+      "n_features": 9,
+      "n_clusters": 2,
+      "type": "real-world"
+    },
+    "balance-scale": {
+      "n_samples": 625,
+      "n_features": 4,
+      "n_clusters": 3,
+      "type": "real-world"
+    },
+    "heart-statlog": {
+      "n_samples": 270,
+      "n_features": 13,
+      "n_clusters": 2,
+      "type": "real-world"
+    },
+    "zoo": {
+      "n_samples": 101,
+      "n_features": 16,
+      "n_clusters": 7,
+      "type": "real-world"
+    }
+  }
+}
