@@ -409,7 +409,7 @@ def generate_heatmaps(df):
         ax.set_ylabel('Dataset', fontsize=11)
         plt.xticks(rotation=45, ha='right')
         plt.tight_layout()
-        plt.savefig(os.path.join(OUTPUT_DIR, f'heatmap_{metric}.png'), dpi=150)
+        plt.savefig(os.path.join(OUTPUT_DIR, f'heatmap_{metric}.png'), dpi=300, bbox_inches='tight')
         plt.close()
 
     print(f"\n  Heatmaps saved to {OUTPUT_DIR}")
@@ -438,7 +438,7 @@ def generate_heatmaps_by_type(df):
         ax.set_ylabel('Dataset', fontsize=11)
         plt.xticks(rotation=45, ha='right')
         plt.tight_layout()
-        plt.savefig(os.path.join(OUTPUT_DIR, f'heatmap_ARI_{ds_type}.png'), dpi=150)
+        plt.savefig(os.path.join(OUTPUT_DIR, f'heatmap_ARI_{ds_type}.png'), dpi=300, bbox_inches='tight')
         plt.close()
 
 
@@ -537,7 +537,7 @@ def generate_sensitivity_plots(df_sens):
         ax.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, 'parameter_sensitivity.png'), dpi=150)
+    plt.savefig(os.path.join(OUTPUT_DIR, 'parameter_sensitivity.png'), dpi=300, bbox_inches='tight')
     plt.close()
     print(f"  Sensitivity plots saved.")
 
@@ -633,7 +633,7 @@ def run_scalability_benchmark():
     ax2.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, 'scalability.png'), dpi=150)
+    plt.savefig(os.path.join(OUTPUT_DIR, 'scalability.png'), dpi=300, bbox_inches='tight')
     plt.close()
     print(f"  Scalability results saved.")
     return df_all
@@ -855,7 +855,7 @@ def run_noise_analysis(all_datasets):
         ax.legend(fontsize=11)
         ax.grid(True, alpha=0.3)
         plt.tight_layout()
-        plt.savefig(os.path.join(OUTPUT_DIR, 'noise_robustness.png'), dpi=150)
+        plt.savefig(os.path.join(OUTPUT_DIR, 'noise_robustness.png'), dpi=300, bbox_inches='tight')
         plt.close()
 
     print(f"  Noise analysis results saved.")
@@ -915,7 +915,7 @@ def generate_summary_by_type(df_benchmark):
         ax.grid(True, axis='x', alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, 'comparison_by_type.png'), dpi=150)
+    plt.savefig(os.path.join(OUTPUT_DIR, 'comparison_by_type.png'), dpi=300, bbox_inches='tight')
     plt.close()
 
     print(f"  Summary saved.")
