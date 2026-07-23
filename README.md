@@ -8,7 +8,7 @@ A density-based graph clustering algorithm that automatically identifies core cl
 
 > **Paper:** "Graph clustering algorithm based on density variation"  
 > *IAES International Journal of Artificial Intelligence (IJ-AI)*, 2025  
-> Authors: Rifqat Davronov, Botir Kuziyev, Mirzo Alimov
+> Authors: Rifqat Davronov, Fatima Adilova, Botir Kuziyev
 
 ---
 
@@ -198,7 +198,7 @@ If you use this code in your research, please cite:
 ```bibtex
 @article{davronov2025yadro,
   title   = {Graph clustering algorithm based on density variation},
-  author  = {Davronov, Rifqat and Kuziyev, Botir and Alimov, Mirzo},
+  author  = {Davronov, Rifqat and Adilova, Fatima and Kuziyev, Botir},
   journal = {IAES International Journal of Artificial Intelligence},
   year    = {2025},
   note    = {Under Review}
